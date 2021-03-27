@@ -1,0 +1,35 @@
+1.What goal will your website be designed to achieve?
+
+  This project is designed to allow users to search for videos across a wide variety of platforms including: youtube,livevideo,rumble and bitchute among others.  Results are displayed and ranked according to user preferences including views, comments and length.
+
+2.What kind of users will visit your site? In other words, what is the demographic ofyour users?
+
+  Demographics will not be limited in any way.  This app will target everyone
+
+3.What data do you plan on using? You may have not picked your actual API yet,which is fine, just outline what kind of data you would like it to contain.
+
+  Data will come from the apis of youtube, livevideo, bitchute, and others...
+
+4.In brief, outline your approach to creating your project (knowing that you may notknow everything in advance and that these details might change later). Answerquestions like the ones below, but feel free to add more information:
+
+  a.What does your database schema look like?
+  
+    Database will consist of saved search results for videos across a wide variety of sites to reduce the time it takes to search across every api
+
+  b.What kinds of issues might you run into with your API?
+  
+    Some apis may limit the number of searches for a particular key and/or require a commercial license.  The database for search results may need periodic updating for results that have been removed or changed on servers.  APIs may change and require updating in the app.
+
+  c.Is there any sensitive information you need to secure?
+  
+    There is no plan to log users into specific video sites.  If that changes, then steps will be needed to account for login credentials
+  
+  d.What functionality will your app include?
+  
+    Search by keyword, length, comments.  Rank videos by these criteria.  Filter videos that don't meet user defined requirements.  Exclude videos with user defined requirements.
+    
+  e.What will the user flow look like?
+  
+    Users will access the site and be greeted by a search page along with top videos from various sites.  Users will have the option to include or exclude sites based from search results.  Videos will be displayed as a wall of thumbnails or a list based on user selection.  Clicking on a video will bring it up in its own window.
+  
+  
