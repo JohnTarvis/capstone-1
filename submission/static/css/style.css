@@ -1,0 +1,150 @@
+#test-area{
+    display:none;
+}
+
+html, body, .main
+{
+    height: 100vh;
+    width: 100vw;
+    margin:0;
+    background-color: black;
+    color:white;
+}
+
+img{
+    max-width:100%;
+    max-height:100%
+}
+
+#content{
+    text-align:center;
+    height:100%;
+}
+
+hr{
+    color:white;
+    background-color: yellow;
+}
+
+.top-area{
+    width:33%;
+}
+
+.inline-block{
+    display:inline-block;
+}
+
+.center{
+    text-align:center;
+}
+
+#main{
+    text-align:center;
+}
+
+.vidtile{
+    border:1px solid silver;
+    background-color: black;
+    color:white;
+    display:inline-block;
+    height:250px;
+    width:250px;
+}
+
+.vidtileLink{
+    display:block;
+}
+
+.inline-block{
+    display:inline-block;
+}
+
+.red-border{
+    border:1px solid red;
+}
+
+.standard-img{
+    max-height:250px;
+}
+
+.max-size{
+    min-height:100vh;
+    min-width:100vw;
+    border:1px solid blue;
+}
+
+
+.video-frame{
+    width:98%;
+    height:80%;
+    position:absolute;
+    left:1%;
+    top:10%;
+    overflow:"hidden";
+    
+}
+  
+.video-popup{
+    width:90%;
+    height:90%;
+    position:absolute;
+    left:5%;
+    top:5%;
+    overflow:"hidden";
+    border:1px solid black;
+    background-color:darkolivegreen;
+}
+
+.exit-button{
+    position:absolute;
+    top:3px;
+    right:3px;
+}
+
+.title{
+    max-width:100%;
+    max-height:100%;
+    font-size:.8rem;
+    overflow: hidden;
+    color:#48f
+}
+
+.video-thumbnail{
+    width:100%;
+    max-height:150px;
+}
+
+.thumbnail{
+    height:200px;
+    /* border:1px solid purple; */
+    overflow:hidden;
+}
+
+.mont-font{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.site-name{
+    color:gold;
+}
+
+.paid-site-name{
+    color:crimson;
+}
+
+.paid-link{
+    display:inline-block;
+}
+
+#spinner{
+    text-align: center;
+}
+
+#spinner-box{
+    text-align: center;
+}
+
+
+/* .results-section{
+    height:100%;
+} */

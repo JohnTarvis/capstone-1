@@ -1,0 +1,55 @@
+{% extends 'base.html' %}
+
+{% block content %} 
+
+<div id='test-area'>
+    <button class='btn btn-warning' id='testButton'>TEST</button>
+    <hr>
+        <iframe id='test-frame' src='https://www.liveleak.com'>
+        </iframe>
+    <hr>
+</div>
+
+<!-- <div id='spinner'></div> -->
+
+
+
+<div id='main' class='center'>
+    <div class='top-area inline-block' id='search-section'>
+        <div class="form-group">
+            <label>Search for videos</label>
+            <div class='inline-block'>
+                <input type="text" class="form-control" id='search-input'>
+            </div>
+            <div class='inline-block'>
+                <button class='btn btn-primary' id='search-button'>search</button>
+            </div>
+        </div>
+    </div>
+    <hr>
+    <div class="container-fluid" id = 'results-section'>
+        <div class="row" id='search-results'></div>   
+    </div>
+    <div class="spinner-border text-primary" role="status" id='spinner'>
+        <span class="sr-only">Loading...</span>
+    </div>
+    <div id='video-player'></div>
+
+</div>
+
+{% endblock %}
+
+{%block scripts%} 
+
+    <script src='static/core.js'></script>
+
+    <script src='static/apis/youtubeAPI.js'></script>
+    <script src='static/apis/dailymotionAPI.js'></script>
+    <script src='static/apis/vimeoAPI.js'></script>
+    <script src='static/apis/netflixAPI.js'></script>
+    <script src='static/apis/huluAPI.js'></script>
+    <script src='static/apis/watchmodeAPI.js'></script>
+
+    <script src='static/ui.js'></script> 
+
+{%endblock%}
