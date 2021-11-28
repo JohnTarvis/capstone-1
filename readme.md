@@ -10,3 +10,6 @@
 
 - the sql alchemy database saves commonly searched for phrases and provides a quicker response time when a user searches for a phrase that was previously queried
 
+- This was made with Python3, Flask and Javascript - 
+
+
